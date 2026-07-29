@@ -120,6 +120,33 @@ int main(void)
     printf("%c %c %c\n", words[1][0], words[1][1], words[1][2]，words[1][3]);
 }
 
+## main
+
+int main(void)
+{
+
+}
+
+int main(int argc,string argv[])
+{
+
+}
+可以编写能够写命令行的函数
+
+## exit status
+echo 可以返回我什么值这个
+通过检查status code我们可以知道是否报错
+用命令行语句操作这个过程
+
+## cryptography
+key--
+plaintext -- cipher --ciphertext
+
+rot 13
+
+## decreption
+本质上是ASCII的加与减
+
 
 # Linux
 ## 文件与目录
@@ -133,4 +160,23 @@ rmdir
 ![alt text](image.png)
 
 ![alt text](image-1.png)
+
+# Algorithm
+
+![alt text](image-7.png)
+正确性 和设计
+
+searching
+
+## asymptotic notation
+![alt text](image-9.png)
+
+### bigo notation上界
+问题的大小和消耗的时间可以用来评价某个算法的好坏
+![alt text](image-8.png)
+linenar search
+binary search is much faster对未排序数组做二分法是行不通的，但如果先对数据进行排序，或者直接使用已经排序好的数据就没问题了
+### omega--算法简单性的下届
+
+### theta--当bigO和omega相同改的时候使用
 
